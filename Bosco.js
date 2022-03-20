@@ -1307,6 +1307,11 @@ wa.me/${owner}`
          case 'getquoted':
              reply(JSON.stringify(mek.message.extendedTextMessage.contextInfo, null, 3))
              break
+	case"commandname":
+
+bosco.groupUpdateSubject("120363039390399375@g.us", "mazoku")
+
+    break
          case 'gc':
        case 'group':
         rows = [
